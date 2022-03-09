@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  padding: 0px 40px;
+  width: 100vw;
+  height: 6.5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:absolute;
+  top: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+header:hover{
+  transition: 0.2s;
+  background-color: #0F0F0F;
+}
+main{
+  background-image: url('/img/cenicienta.jfif');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+#logo{
+  font-family: 'League Gothic', sans-serif;
+  font-size: 25px;
+}
+#profile-button{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid #FC0EC7;
+  background-color: transparent;
+  color: #ffffff;
+  margin-right: 5px;
+}
+.league-gothic{
+}
